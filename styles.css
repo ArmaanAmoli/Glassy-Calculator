@@ -1,0 +1,94 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Dark-6K-thumb.jpeg") ;
+   
+    background-size: cover;
+    background-position:center;
+
+    font-family: sans-serif;
+    color: white;
+    text-shadow: .25px 0px 0px black;
+    transition: all 0.5s ease-in-out;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 355px;
+    border: solid;
+    border-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.1);
+    backdrop-filter: blur(20px);
+    border-radius: 38px;
+    aspect-ratio: 9/19.5;
+    box-sizing: border-box;
+}
+
+.display{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 27%;
+    width: 340px;
+    border: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 38px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    
+}
+.keypad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* border: solid white; */
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+}
+
+h1{
+    margin:20px;
+}
+
+.calcButton{
+    width: 25%;
+    aspect-ratio: 1/1;
+    padding:5px;
+    margin:5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large;
+    border:solid;
+    border-color: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+    
+}
+.calcButton:hover{
+    backdrop-filter: blur(60px);
+    width:27%;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.row{
+    width: 80%;
+    height:21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
