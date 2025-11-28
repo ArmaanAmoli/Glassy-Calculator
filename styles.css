@@ -44,6 +44,14 @@ body{
     backdrop-filter: blur(50px);
     
 }
+
+.display h1 {
+    margin: 20px;
+    font-size: 2em; /* adjust font size */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .keypad{
     display: flex;
     flex-direction: column;
