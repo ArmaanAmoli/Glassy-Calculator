@@ -35,6 +35,14 @@ function handleButtonClick(event) {
                 expression = 'Error';
             }
             break;
+        case 'X':
+            // Replace 'X' with '*' for multiplication
+            expression += '*';
+            break;
+        case '÷':
+            // Replace '÷' with '/' for division
+            expression += '/';
+            break;
         case '^':
             // Replace '^' with '**' for exponentiation
             expression += '**';
